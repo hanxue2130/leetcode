@@ -27,10 +27,10 @@ import java.util.*;
 //chains.
 //["abcd","dbqca"] is not a valid word chain because the ordering of the
 //letters is changed.
-public class LongestStringChain {
+public class LongestStringChain_1048 {
     public static void main(String[] args) {
         String [] words =  {"a","b","ba","bca","bda","bdca"};
-        LongestStringChain test = new LongestStringChain();
+        LongestStringChain_1048 test = new LongestStringChain_1048();
         System.out.println(test.longestStrChain(words));
     }
     public int longestStrChain(String[] words) {
