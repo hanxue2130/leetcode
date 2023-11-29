@@ -3,11 +3,11 @@ package leetcode;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class SortIntegerbyTheNumberof1Bits_1356 {
+public class sortIntegerbyTheNumberof1Bits_1356 {
     public static void main(String[] args) {
         int [] arr = {0,1,2,3,4,5,6,7,8};
         int [] ans = new int [arr.length];
-        SortIntegerbyTheNumberof1Bits_1356 sort1 = new SortIntegerbyTheNumberof1Bits_1356();
+        sortIntegerbyTheNumberof1Bits_1356 sort1 = new sortIntegerbyTheNumberof1Bits_1356();
         ans =  sort1.sortByBits(arr);
 
         for(int i:ans) {

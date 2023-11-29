@@ -1,6 +1,6 @@
 package leetcode;
 
-public class ValidAnagram_242 {
+public class validAnagram_242 {
     public static void main(String[] args) {
         String s = "unkonw";
         String t = "unkonw";
