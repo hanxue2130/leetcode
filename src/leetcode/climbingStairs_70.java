@@ -1,6 +1,6 @@
 package leetcode;
 
-public class ClimbingStairs_70 {
+public class climbingStairs_70 {
     public static void main(String[] args) {
 
 //        git config --global user.name "John Doe"
