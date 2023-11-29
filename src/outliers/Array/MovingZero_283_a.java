@@ -1,4 +1,4 @@
-package Outliers.Array;
+package outliers.Array;
 
 public class MovingZero_283_a {
     //loop put non-zero first and then put zero afterwards

@@ -1,6 +1,6 @@
 package leetcode;
 
-public class Sqrt_69 {
+public class sqrt_69 {
     public static void main(String[] args) {
 
     }
