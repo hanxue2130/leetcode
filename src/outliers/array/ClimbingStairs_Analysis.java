@@ -1,4 +1,4 @@
-package outliers.Array;
+package outliers.array;
 
 import java.util.Scanner;
 
