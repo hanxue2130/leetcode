@@ -1,5 +1,6 @@
 package leetcode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 class Node {
@@ -36,5 +37,22 @@ public class NaryTreePostOrder_590 {
             }
         }
         return output;
+    }
+
+    //Recursive solution seems to be better
+    //the only thing I am not sure is the order
+
+    public List<Integer> postorder1(Node root) {
+        List<Integer> res = new ArrayList<>();
+        if (root == null) return res;
+        postorder(root, res);
+        return res;
+    }
+
+    private void postorder(Node node, List<Integer> res) {
+        for (Node c : node.children) {
+            postorder(c, res);
+        }
+        res.add(node.val);
     }
 }
